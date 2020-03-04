@@ -1,0 +1,320 @@
+/*Шрифты
+font-family: 'Montserrat', arial;
+font-family: 'Roboto', arial;
+*/
+
+body {
+overflow-x: hidden;
+text-align: center;
+}
+.containerOne {
+/*height: 500px;*/
+	background-image: url(../img/bg1.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	margin-top: 200px;
+
+}
+.container {
+	padding: 0%;
+	margin: 0px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.row {
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.logo img {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	width: 150px;
+}
+.row2 .pOne {
+	font-family: 'Roboto', arial;
+	font-weight: medium;
+	font-size: 20px;
+	color: white;
+	margin-top: 28%;
+	margin-bottom: 0px;
+	text-shadow: 1px 1px 10px black
+}
+.pTwo {
+	font-family: 'Roboto', arial;
+	font-weight: bold;
+	color: white;
+	margin-top: -10px;
+	font-size: 25px;	
+	text-shadow: 1px 1px 10px black
+}
+.row2 span {
+	color: #fffc00;
+}
+.rowBanki {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 9%;
+	padding-bottom: 5%;
+}
+.rowBanki div {
+	margin: 0px;
+	padding: 0px;
+}
+.rowBanki span {
+	
+	font-family: 'Roboto', arial;
+	font-weight: medium;
+	color: white;
+	text-shadow: 1px 1px 10px black;
+	font-size: 25px;
+	margin: 5px;
+	width: 20px;
+}
+.rowBanki img {
+	width: 75px;
+}
+.rowBanki .col-6 p {
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.discount p {
+	color: white;
+	text-align: right;
+}
+.discount span {
+	margin: 0px;
+	padding: 5px;
+	font-size: 30px;
+	background-color: #10c979;
+	font-family: 'Montserrat', arial;
+}
+.time .row .col-12 p {
+	font-family: 'Roboto', arial;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 25px;
+	margin-top: 5%;
+	color: #323343;
+}
+.time .row .col-12 span {
+	font-weight: 400;
+	font-size: 20px;
+}
+.time .row .col-12 button {
+	
+	width: 90%;
+	height: 30%;
+	text-decoration: none;
+	background-color: #24c862;
+	border: none;
+	border-bottom: 2px solid #12833d;
+	font-family: 'Roboto', arial;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+.time .row .col-12 button:active {
+	background-color: #12833d;
+}
+.why {
+	margin-top: 80px;
+	color: #323343;
+	margin-bottom: 50px;
+}
+.headWhy {
+ font-family: 'Roboto', arial;
+ font-weight: 400;
+ font-size: 35px;
+}
+.headWhy span {
+ font-family: 'Roboto', arial;
+ font-weight: 700;
+ font-size: 40px;
+}
+.why .row .col-12 img {
+	width: 135px;
+	margin-top: 30px;
+}
+.whyBox p {
+	font-family: 'Roboto', arial;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 10px;
+	margin-top: 30px;
+}
+.plus {
+	background-image: url(../img/bg2.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.plus h4 {
+	font-family: 'Roboto', arial;
+	font-weight: 700;
+	color: #323343;
+	font-size: 23px;
+	margin-top: 15px;
+}
+.plus .plusBox li {
+	list-style-type:disc;
+	color: #8cb400;
+}
+.plus .plusBox li span {
+	font-family: 'Roboto', arial;
+	font-weight: 400;
+	color: #323343;
+}
+.plus .plusBox ul {
+	width: 100%;
+	/*margin-left: 5%;
+	margin-right: 5%;*/
+}
+.plusBox {
+	width: 100%;
+	padding: 0px;
+	padding-top: 30px;
+	
+	background-color: rgb(255, 255, 255, 0.6);
+}
+.imagetext {
+	text-align: center;
+}
+.info {
+	background-image: url(../img/bg3.jpg);
+	background-color: rgb(0, 0, 0, 1);
+	background-repeat: no-repeat;
+	background-position: center top;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	text-align: left;
+	padding-left: 5%;
+	padding-bottom: 13%;
+}
+.info .row .col-12 span img {
+	width: 150px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.info .row .col-12 p {
+	font-family: 'Roboto', arial;
+	font-weight: 500;
+	color: white;
+	font-size: 12px;
+}
+.headWhyTwo {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.photo {
+	background-color: #f7f7f7;
+	padding: 7%;
+	text-align: center;
+	margin-top: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+.photo img {
+	width: 100%;
+}
+.bottomPhoto {
+	font-family: 'Roboto', arial;
+	font-weight: 400;
+	text-align: left;
+	color: #2d2e36;
+}
+.photo a {
+	text-decoration: none;
+	font-family: 'Roboto', arial;
+	font-weight: 700;
+	font-size: 20px;
+	color: #2d2e36;
+}
+.feedback {
+	background-color: #8cb400;
+	padding-bottom: 70px;
+}
+.headWhyThree {
+	margin-top: 30px;
+	color: white;
+ font-family: 'Roboto', arial;
+ font-weight: 500;
+ font-size: 17px;
+}
+.comments p {
+	margin-bottom: 0px;
+}
+.headWhyThree span {
+ font-family: 'Roboto', arial;
+ font-weight: 700;
+ font-size: 30px;
+}
+.comments {
+	text-align: center;
+	color: white;
+}
+.name {
+	font-family: 'Roboto', arial;
+	font-weight: 700;
+	color: white;
+	font-size: 25px;
+
+}
+.comments .commentsText {
+	color: white;
+	font-family: 'Roboto', arial;
+	font-weight: 400;
+	font-size: 15px;
+	margin-top: 20px;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.stars img {
+	margin: 30px;
+	width: 200px;
+	margin-bottom: 50px;
+}
+.vieew {
+	text-decoration: none;
+	font-family: 'Roboto', arial;
+	font-weight: 400;
+	color: white;
+	border: 2px solid white;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.vieew:active {
+	text-decoration: none;
+	color: #759700;
+	border: 2px solid #759700;
+}
+.vieew:visited {
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+}.vieew:hover {
+	text-decoration: none;
+	color: #759700;
+	border: 2px solid #759700;
+}
